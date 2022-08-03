@@ -2,80 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* booth sizing */
+.booth1, .booth2, .booth3, .booth4, .booth5, .booth6, .booth7, .booth8, .booth9{
+  background: url(./booth.png);
+  border: none;
+  position: absolute;
+  width: 165px;
+  height: 134px;
 }
 
+/* booth positioning */
 .booth1{
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 51px;
   top: 120px;
 }
-
 .booth2 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 305px;
   top: 120px;
 }
 
 .booth3 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 559px;
   top: 120px;
 
 }
 
 .booth4 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 813px;
   top: 120px;
 }
 
 .booth5 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 1067px;
   top: 120px;
 }
 
 .booth6 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 51px;
   top: 466px;
 }
 
 .booth7 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 305px;
   top: 466px;
 }
 
 .booth8 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 813px;
   top: 466px;
 }
 
 .booth9 {
-  position: absolute;
-  width: 161px;
-  height: 134px;
   left: 1067px;
   top: 463px;
 }
@@ -89,17 +67,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
